@@ -1,0 +1,1 @@
+This repository demonstrates a common yet subtle bug in PHP involving the interaction between the `foreach` loop and the `unset()` function, particularly when handling nested arrays.  The bug arises because modifying the array structure during iteration can lead to unexpected index skipping or errors.  The provided example showcases the problem and its solution.
